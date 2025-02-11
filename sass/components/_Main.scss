@@ -1,0 +1,120 @@
+main {
+  width: 100%;
+  background-color: var(--light);
+  color: var(--dark);
+}
+.FirstArticle {
+  background-color: var(--lemon);
+}
+.ContainerLanguageFirstSectio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  font-size: var(--f3);
+  padding: 50px;
+}
+.GretingsTextFirstArticle {
+  font-size: var(--f1);
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark);
+}
+.GretingsText {
+  padding-top: 50px;
+}
+.ChoiceLAnguageFirstArticle {
+  font-size: var(--f2);
+  color: var(--dark);
+  text-align: center;
+}
+.ChoiceLAnguage {
+  padding-top: 50px;
+}
+
+.Block {
+  width: 250px;
+  height: 50px;
+  background-color: var(--dark);
+  color: var(--lemon);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.ContainerFoto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Foto {
+  width: 450px;
+  height: 300px;
+}
+
+.Title {
+  margin: 50px;
+}
+.MainText {
+  font-size: var(--f3);
+  margin-left: 20px;
+  margin: 0 20px 20px 20px;
+}
+ul {
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: var(--f3);
+}
+.BoldText {
+  font-size: var(--f3);
+  margin-left: 20px;
+  margin: 40px 20px 20px;
+  font-weight: 700;
+}
+.RotateFoto {
+  width: 300px;
+  height: 400px;
+}
+br {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  .Foto {
+    width: 350px;
+    height: 250px;
+  }
+  .Title {
+    width: 450px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .GretingsText {
+    font-size: 35px;
+    padding: 20px;
+  }
+  .ChoiceLAnguage {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .GretingsText {
+    font-size: 25px;
+    padding: 20px;
+  }
+  .ChoiceLAnguage {
+    font-size: 20px;
+  }
+}
